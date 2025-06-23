@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMW</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-margin: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav Bar  -->
+    <nav id="nav" class="navbar">
+        <div class="nav-left">
+            <img src="https://www.bmw.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-bmw-com-gray.svg"
+                alt="">
+            <h1 style="font-family: 'BMW';">BMW</h1>
+        </div>
+        <div class="nav-right">
+            <button onclick="location.href='#home'">Home</button>
+            <button onclick="location.href='#about'">About</button>
+            <button onclick="location.href='#service'">Service </button>
+            <button onclick="location.href='#features'">Features</button>
+            <button onclick="location.href='#cars'">More Cars</button>
+            <button onclick="location.href='#testimonials'">Testimonials</button>
+
+            <button id="black-button" onclick="location.href='#contact'">Contact us</button>
+        </div>
+    </nav>
+    <button onclick="location.href='#nav'" class="goto-top"><img src="./assets/up-arrow-removebg-preview.png"></button>
+
+    <!-- Hero Section  -->
+
+    <div id="home" class="hero">
+        <div class="hero-left ">
+            <div class="type-parrent">
+                <div>
+                    <img style="margin-top: 2px;  "
+                        src="https://www.bmw.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-bmw-com-gray.svg">
+                    <h1 style="font-size: 60px;">
+
+                        <span>BMW</span>
+                    </h1>
+                </div>
+            </div>
+            <p>Discover our premium range of Cars, crafted for durability and elegance. </p>
+            <button id="black-button">Explore now</button>
+        </div>
+        <div class="hero-right">
+            <!-- <img src="../assets/hero-page.jpg" alt="Hero"> -->
+            <video src="../assets/bmw-video.mp4" autoplay loop muted playsinline></video>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+
+
+    <div id="about" class="About">
+
+        <div class="About-heading">
+            <h1>About Us</h1>
+        </div>
+
+
+        <div class="about-car">
+            <div>
+                <img src="../assets/bmw-m7.jpg" alt="">
+            </div>
+            <div class="about-right">
+                <h1>The BMW</h1>
+                <p>BMW blends luxury with unmatched performance.
+                    Every detail reflects our passion for driving excellence.</p>
+                <button id="black-button">know more</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Service Section -->
+
+    <div id="service">
+        <div class="services">Services</div>
+        <div class="s-cards">
+            <div class="row1">
+                <div class="service-card">
+                    <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Topics/offers-and-services/Safety/airbags.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1662978573311.jpg"
+                        alt="">
+                    <h1>Safety Systems</h1>
+                    <p>Equipped with features like ABS, airbags, lane assist.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://dcdws.blob.core.windows.net/dws-4099212-4107-media/sites/4107/2022/04/Best-Diesel-Car-With-Good-Mileage.jpg"
+                        alt="">
+                    <h1>Fuel Efficiency</h1>
+                    <p>Enjoy exceptional mileage without issues in car</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/bmw-cabin.jpg" alt="">
+                    <h1>Silent Cabin</h1>
+                    <p>Experience a quiet and peaceful ride with advanced sound insulation technology.</p>
+                </div>
+                <!-- <div class="service-card">
+                <img src="./eco.svg" alt="">
+                <h1> Connectivity</h1>
+                <p>Seamlessly connect your phone with Android Auto, Apple CarPlay, and Bluetooth for hands-free convenience</p>
+            </div> -->
+            </div>
+            <div class="row2">
+                <div class="service-card">
+                    <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/96443/5-series-exterior-sunroof-moonroof.jpeg?q=80"
+                        alt="">
+                    <h1> Sunroof </h1>
+                    <p>Elevate your driving experience with a panoramic sunroof and customizable lighting.</p>
+                </div>
+                <div class="service-card">
+                    <video autoplay loop
+                        src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/engine/eng-01-stage-hd.mp4"></video>
+                    <h1> Suspension</h1>
+                    <p>Engineered to glide over rough roads — perfect for Indian terrain and urban streets.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/Topics/Service%20and%20Warranty/Checkup%20and%20maintenance/light%20check%20585x329.jpg"
+                        alt="">
+                    <h1>Maintenance</h1>
+                    <p>LockIn doors are more resistant to warpage than others warpage than others.</p>
+                </div>
+                <!-- <div class="service-card">
+                <img src="./warrenty.svg" alt="">
+                <h1>Warrenty</h1>
+                <p>LockIn doors comes with 10 years of replacement warranty replacement warranty.</p>
+            </div> -->
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center; margin: 2rem;">
+            <button id="black-button">
+                More about our services
+            </button>
+        </div>
+    </div>
+
+    <!-- Features -->
+
+    <!-- Features Section -->
+    <div id="features">
+        <div class="features">Features</div>
+        <div class="cards">
+            <div class="row1">
+                <div class="feature-card">
+                    <img src="./assets/safety.png" alt="">
+                    <h1>Safety Systems</h1>
+                    <p>Equipped with features like ABS, airbags, lane assist like ABS, airbags, lane assist ABS,
+                        airbags, lane assist.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/fuel.png" alt="">
+                    <h1>Fuel Efficiency</h1>
+                    <p>Enjoy exceptional mileage without compromising performance compromising performance.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/silent.png" alt="">
+                    <h1>Silent Cabin</h1>
+                    <p>Experience a quiet and peaceful ride with advanced sound insulation technology advanced sound .
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/connect.png" alt="">
+                    <h1> Connectivity</h1>
+                    <p>Seamlessly connect your phone with Android Auto, Apple CarPlay, and Bluetooth for hands-free
+                        convenience</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="feature-card">
+                    <img src="./assets/sunroof.png" alt="">
+                    <h1> Sunroof </h1>
+                    <p>Elevate your driving experience with a panoramic sunroof and customizable interior mood lighting.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/suspension.png" alt="">
+                    <h1> Suspension</h1>
+                    <p>Engineered to glide over rough roads — perfect for Indian terrain and urban streets.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/maintain.png" alt="">
+                    <h1>Maintenance</h1>
+                    <p>LockIn doors are more resistant to warpage than others warpage than others others warpage.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/warrenty.png" alt="">
+                    <h1>Warrenty</h1>
+                    <p>LockIn doors comes with 10 years of replacement warranty replacement warranty.</p>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center; margin: 2rem;">
+            <button id="black-button">
+                More about our features
+            </button>
+        </div>
+    </div>
+
+
+    <!-- products -->
+     <h1 id="cars" style="font-family: BMW; text-align: center; font-size: 50px;margin-top: 100px;">All Models</h1>
+<section class="products">
+    
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/product1.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/product3.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/pro4.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/pro5.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/pro9.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/pro7.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/pro8.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="badge">New</span>
+    <img src="./assets/product2.png" alt="BMW iX1" class="car-img">
+    <div class="info">
+      <h3 class="title">THE BMW iX1 LONG WHEELBASE</h3>
+      <p class="type">Full-Electric</p>
+      <p class="price">Starting from <strong>₹ 49,00,000</strong></p>
+    </div>
+  </div>
+   <div >
+            <button class="more-cars" >
+                More Cars
+            </button>
+        </div>
+  </div>
+  </section>
+        
+    <!-- Testimonials -->
+     <h1 id="testimonials" style="text-align: center; margin-bottom: 90px; margin-top: 100px;" >
+        Our Testimonials
+     </h1>
+      <section class="tm">
+
+  <div class="box">
+    <img src="data:image/jpeg;base64,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" alt="User" class="img">
+    <div class="txt">
+      <h4 class="nm">Uma K.</h4>
+      <p class="tag">BMW iX Owner</p>
+      <p class="msg">"Driving the BMW iX has been an experience beyond expectations — power, comfort, and sustainability all in one."</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <img src="data:image/jpeg;base64,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" alt="User" class="img">
+    <div class="txt">
+      <h4 class="nm">Uma K.</h4>
+      <p class="tag">BMW iX Owner</p>
+      <p class="msg">"Driving the BMW iX has been an experience beyond expectations — power, comfort, and sustainability all in one."</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <img src="data:image/jpeg;base64,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" alt="User" class="img">
+    <div class="txt">
+      <h4 class="nm">Uma K.</h4>
+      <p class="tag">BMW iX Owner</p>
+      <p class="msg">"Driving the BMW iX has been an experience beyond expectations — power, comfort, and sustainability all in one."</p>
+    </div>
+  </div>
+<!-- 
+    contact -->
+
+     <div class="contact-container">
+        <div class="contact">
+            <h1 style="font-family: BMW;">Contact Us</h1>
+            <form class="contact-form">
+                <input class="ph" type="text" placeholder="Your Name" required>
+                <input class="ph" type="email" placeholder="Your Email" required>
+                <textarea class="ph" placeholder="Your Message" required cols="12" rows="7"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+    </div>
+  
+
+
+</body>
+
+</html>
