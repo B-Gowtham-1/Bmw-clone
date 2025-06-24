@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>BMW</title>
+    <title>GM Cars</title>
     <style>
         html {
             scroll-behavior: smooth;
@@ -14,16 +14,25 @@
         
 
     </style>
+    <script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    html.dataset.theme = html.dataset.theme === "dark" ? "light" : "dark";
+  }
+</script>
+
 </head>
 
 <body>
+    <!-- <button onclick="toggleTheme()">Toggle Theme</button> -->
+
 
     <!-- Nav Bar  -->
     <nav id="nav" class="navbar">
         <div class="nav-left">
-            <img src="https://www.bmw.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-bmw-com-gray.svg"
+            <img src="./assets/gm-cars.png"
                 alt="">
-            <h1 style="font-family: 'BMW';">BMW</h1>
+            <h1 style="font-family: 'AK'; font-weight: 50;">GM Cars</h1>
         </div>
         <div class="nav-right">
             <button onclick="location.href='#home'">Home</button>
@@ -44,11 +53,11 @@
         <div class="hero-left ">
             <div class="type-parrent">
                 <div>
-                    <img style="margin-top: 2px;  "
-                        src="https://www.bmw.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-bmw-com-gray.svg">
+                    <img style="margin-top: 2px;  width: 60px; height: 60px;"
+                        src="./assets/gm-cars.png">
                     <h1 style="font-size: 60px;">
 
-                        <span>BMW</span>
+                        <span style="font-family: 'AK'; font-weight: 50;">GM Cars</span>
                     </h1>
                 </div>
             </div>
