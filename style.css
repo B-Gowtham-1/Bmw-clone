@@ -249,6 +249,10 @@ body{
     left: -1px; */
 
 }
+.s-card img:hover{
+    transform: scale(1.5);
+    transition: 0.5 ease-in-out;
+}
 .s-cards video{
     margin: 0;
     /* overflow: hidden; */
@@ -483,9 +487,7 @@ body{
 }
 
 /* contact */
-
-
- .contact-container {
+.contact-container {
             
            width: 600px;
            margin: 40px;
@@ -519,7 +521,7 @@ body{
             padding: 10px;
             align-items: center;
             margin-bottom: 30px;
-            background-color: rgba(255, 255, 255, 0.592);
+            background-color: rgba(179, 177, 177, 0.552);
 
             
             border-radius: 5px;
@@ -529,7 +531,7 @@ body{
             
         }
         .ph::placeholder {
-  color: rgb(255, 255, 255);
+  color: #2F3C7E;
   opacity: 78; /* Firefox */
 }
         
@@ -545,7 +547,59 @@ body{
             border-radius: 5px;
             cursor: pointer;
         }
-
-::placeholder{
-    color: rgb(0, 0, 0);
+::placeholder {
+  color: rgb(255, 128, 128);
+  font-style: italic;
+  opacity: 1; /* important for visibility in some browsers */
 }
+.company video{
+     margin: 0;
+    /* overflow: hidden; */
+    
+    object-fit: cover;
+    width: 550px;
+    height: 355px;
+}
+
+/* Footer */
+.ft {
+  background: #ffffff;
+  padding: 20px 40px;
+  width: 100%;
+  color: #000000;
+}
+
+.ft-box {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ft-text {
+  font-size: 14px;
+}
+
+.ft-social a {
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.3s ease;
+}
+
+.ft-social img {
+  width: 35px;
+  height: 35px;
+  /* filter: brightness(6) invert(1); */
+}
+
+.ft-social a:hover img {
+  opacity: 0.7;
+}
+
+
+
+
+
+
